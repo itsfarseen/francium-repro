@@ -9,6 +9,6 @@
     "main": "node index.js"
   },
   "dependencies": {
-    "francium-sdk": "^1.3.32"
+    "francium-sdk": "^1.3.33"
   }
 }
