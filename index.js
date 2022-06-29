@@ -85,6 +85,7 @@ export async function main() {
 		publicKey: userKeypair.publicKey,
 		signTransaction: function(trx) {
 			trx.sign(userKeypair);
+			return trx;
 		},
 	};
 
